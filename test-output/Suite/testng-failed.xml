@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="passenger2(failed)">
+    <parameter name="recordsPath" value="test-data/airline/passenger-2.json"/>
+    <classes>
+      <class name="com.airline.tests.AirlineTestHome">
+        <methods>
+          <include name="flight_confirmation"/>
+          <include name="flight_select"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="flight_search"/>
+          <include name="user_registration"/>
+          <include name="call_config"/>
+          <include name="registration_confirmation"/>
+          <include name="setParameters"/>
+        </methods>
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </classes>
+  </test> <!-- passenger2(failed) -->
+  <test thread-count="4" parallel="tests" name="passenger4(failed)">
+    <parameter name="recordsPath" value="test-data/airline/passenger-4.json"/>
+    <classes>
+      <class name="com.airline.tests.AirlineTestHome">
+        <methods>
+          <include name="flight_confirmation"/>
+          <include name="flight_select"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="flight_search"/>
+          <include name="user_registration"/>
+          <include name="call_config"/>
+          <include name="registration_confirmation"/>
+          <include name="setParameters"/>
+        </methods>
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </classes>
+  </test> <!-- passenger4(failed) -->
+  <test thread-count="4" parallel="tests" name="passenger3(failed)">
+    <parameter name="recordsPath" value="test-data/airline/passenger-3.json"/>
+    <classes>
+      <class name="com.airline.tests.AirlineTestHome">
+        <methods>
+          <include name="flight_confirmation"/>
+          <include name="flight_select"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="flight_search"/>
+          <include name="user_registration"/>
+          <include name="call_config"/>
+          <include name="registration_confirmation"/>
+          <include name="setParameters"/>
+        </methods>
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </classes>
+  </test> <!-- passenger3(failed) -->
+  <test thread-count="4" parallel="tests" name="passenger1(failed)">
+    <parameter name="recordsPath" value="test-data/airline/passenger-1.json"/>
+    <classes>
+      <class name="com.airline.tests.AirlineTestHome">
+        <methods>
+          <include name="flight_confirmation"/>
+          <include name="flight_select"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="flight_search"/>
+          <include name="user_registration"/>
+          <include name="call_config"/>
+          <include name="registration_confirmation"/>
+          <include name="setParameters"/>
+        </methods>
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </classes>
+  </test> <!-- passenger1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

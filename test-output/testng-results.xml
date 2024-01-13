@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T12:05:12 IST" name="Suite" finished-at="2023-11-01T12:05:40 IST" duration-ms="27602">
+    <groups>
+    </groups>
+    <test started-at="2023-11-01T12:05:12 IST" name="passenger3" finished-at="2023-11-01T12:05:37 IST" duration-ms="24964">
+      <class name="com.airline.tests.AirlineTestHome">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:12 IST" name="setUp" finished-at="2023-11-01T12:05:22 IST" duration-ms="9215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31edaa7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:22 IST" name="setParameters" finished-at="2023-11-01T12:05:22 IST" depends-on-methods="com.base.test.AbstractTest.setUp" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/airline/passenger-3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="user_registration()[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:22 IST" name="user_registration" finished-at="2023-11-01T12:05:29 IST" duration-ms="7353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_registration -->
+        <test-method signature="registration_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:29 IST" name="registration_confirmation" finished-at="2023-11-01T12:05:31 IST" depends-on-methods="com.airline.tests.AirlineTestHome.user_registration" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_confirmation -->
+        <test-method signature="flight_search()[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:31 IST" name="flight_search" finished-at="2023-11-01T12:05:35 IST" depends-on-methods="com.airline.tests.AirlineTestHome.registration_confirmation" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_search -->
+        <test-method signature="flight_select()[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:35 IST" name="flight_select" finished-at="2023-11-01T12:05:36 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_search" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_select -->
+        <test-method signature="flight_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:36 IST" name="flight_confirmation" finished-at="2023-11-01T12:05:37 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_select" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_confirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.airline.tests.AirlineTestHome@7dc3712]" started-at="2023-11-01T12:05:37 IST" name="tearDown" finished-at="2023-11-01T12:05:37 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </test> <!-- passenger3 -->
+    <test started-at="2023-11-01T12:05:12 IST" name="passenger1" finished-at="2023-11-01T12:05:40 IST" duration-ms="27079">
+      <class name="com.airline.tests.AirlineTestHome">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:12 IST" name="setUp" finished-at="2023-11-01T12:05:22 IST" duration-ms="9212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c3fdb62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:22 IST" name="setParameters" finished-at="2023-11-01T12:05:22 IST" depends-on-methods="com.base.test.AbstractTest.setUp" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/airline/passenger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="user_registration()[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:22 IST" name="user_registration" finished-at="2023-11-01T12:05:30 IST" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_registration -->
+        <test-method signature="registration_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:30 IST" name="registration_confirmation" finished-at="2023-11-01T12:05:31 IST" depends-on-methods="com.airline.tests.AirlineTestHome.user_registration" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_confirmation -->
+        <test-method signature="flight_search()[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:31 IST" name="flight_search" finished-at="2023-11-01T12:05:36 IST" depends-on-methods="com.airline.tests.AirlineTestHome.registration_confirmation" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_search -->
+        <test-method signature="flight_select()[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:36 IST" name="flight_select" finished-at="2023-11-01T12:05:38 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_search" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_select -->
+        <test-method signature="flight_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:38 IST" name="flight_confirmation" finished-at="2023-11-01T12:05:39 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_select" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_confirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.airline.tests.AirlineTestHome@5db6b9cd]" started-at="2023-11-01T12:05:39 IST" name="tearDown" finished-at="2023-11-01T12:05:40 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </test> <!-- passenger1 -->
+    <test started-at="2023-11-01T12:05:12 IST" name="passenger2" finished-at="2023-11-01T12:05:40 IST" duration-ms="27116">
+      <class name="com.airline.tests.AirlineTestHome">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:12 IST" name="setUp" finished-at="2023-11-01T12:05:22 IST" duration-ms="9214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@205d38da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:22 IST" name="setParameters" finished-at="2023-11-01T12:05:22 IST" depends-on-methods="com.base.test.AbstractTest.setUp" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/airline/passenger-2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="user_registration()[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:22 IST" name="user_registration" finished-at="2023-11-01T12:05:29 IST" duration-ms="7483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_registration -->
+        <test-method signature="registration_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:29 IST" name="registration_confirmation" finished-at="2023-11-01T12:05:32 IST" depends-on-methods="com.airline.tests.AirlineTestHome.user_registration" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_confirmation -->
+        <test-method signature="flight_search()[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:32 IST" name="flight_search" finished-at="2023-11-01T12:05:37 IST" depends-on-methods="com.airline.tests.AirlineTestHome.registration_confirmation" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_search -->
+        <test-method signature="flight_select()[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:37 IST" name="flight_select" finished-at="2023-11-01T12:05:39 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_search" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_select -->
+        <test-method signature="flight_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:39 IST" name="flight_confirmation" finished-at="2023-11-01T12:05:39 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_select" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_confirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.airline.tests.AirlineTestHome@f58853c]" started-at="2023-11-01T12:05:39 IST" name="tearDown" finished-at="2023-11-01T12:05:40 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </test> <!-- passenger2 -->
+    <test started-at="2023-11-01T12:05:12 IST" name="passenger4" finished-at="2023-11-01T12:05:40 IST" duration-ms="27602">
+      <class name="com.airline.tests.AirlineTestHome">
+        <test-method is-config="true" signature="call_config()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:12 IST" name="call_config" finished-at="2023-11-01T12:05:12 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call_config -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:12 IST" name="setUp" finished-at="2023-11-01T12:05:22 IST" duration-ms="9213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6950ed69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:22 IST" name="setParameters" finished-at="2023-11-01T12:05:22 IST" depends-on-methods="com.base.test.AbstractTest.setUp" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/airline/passenger-4.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="user_registration()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:22 IST" name="user_registration" finished-at="2023-11-01T12:05:29 IST" duration-ms="6886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_registration -->
+        <test-method signature="registration_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:29 IST" name="registration_confirmation" finished-at="2023-11-01T12:05:30 IST" depends-on-methods="com.airline.tests.AirlineTestHome.user_registration" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_confirmation -->
+        <test-method signature="flight_search()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:30 IST" name="flight_search" finished-at="2023-11-01T12:05:36 IST" depends-on-methods="com.airline.tests.AirlineTestHome.registration_confirmation" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_search -->
+        <test-method signature="flight_select()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:36 IST" name="flight_select" finished-at="2023-11-01T12:05:38 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_search" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_select -->
+        <test-method signature="flight_confirmation()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:38 IST" name="flight_confirmation" finished-at="2023-11-01T12:05:40 IST" depends-on-methods="com.airline.tests.AirlineTestHome.flight_select" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight_confirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.airline.tests.AirlineTestHome@642a7222]" started-at="2023-11-01T12:05:40 IST" name="tearDown" finished-at="2023-11-01T12:05:40 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airline.tests.AirlineTestHome -->
+    </test> <!-- passenger4 -->
+  </suite> <!-- Suite -->
+</testng-results>

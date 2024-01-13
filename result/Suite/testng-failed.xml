@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="John(failed)">
+    <parameter name="recordsPath" value="test-data/vendor/john.json"/>
+    <classes>
+      <class name="com.vendor.tests.VendorTestHome">
+        <methods>
+          <include name="dashboard_test"/>
+          <include name="tearDown"/>
+          <include name="setPageObjects"/>
+          <include name="setUp"/>
+          <include name="call_config"/>
+          <include name="login_page"/>
+        </methods>
+      </class> <!-- com.vendor.tests.VendorTestHome -->
+    </classes>
+  </test> <!-- John(failed) -->
+  <test thread-count="3" parallel="tests" name="Sam(failed)">
+    <parameter name="recordsPath" value="test-data/vendor/sam.json"/>
+    <classes>
+      <class name="com.vendor.tests.VendorTestHome">
+        <methods>
+          <include name="dashboard_test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setPageObjects"/>
+          <include name="login_page"/>
+          <include name="call_config"/>
+        </methods>
+      </class> <!-- com.vendor.tests.VendorTestHome -->
+    </classes>
+  </test> <!-- Sam(failed) -->
+  <test thread-count="3" parallel="tests" name="Mike(failed)">
+    <parameter name="recordsPath" value="test-data/vendor/mike.json"/>
+    <classes>
+      <class name="com.vendor.tests.VendorTestHome">
+        <methods>
+          <include name="dashboard_test"/>
+          <include name="tearDown"/>
+          <include name="setPageObjects"/>
+          <include name="setUp"/>
+          <include name="call_config"/>
+          <include name="login_page"/>
+        </methods>
+      </class> <!-- com.vendor.tests.VendorTestHome -->
+    </classes>
+  </test> <!-- Mike(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+com\airline\pages\FlightConfirmation.class
+com\vendor\pages\VendorDashboard.class
+com\airline\pages\RegistrationConfirmation.class
+com\vendor\pages\VendorLogin.class
+com\airline\common\AbstractPage.class
+com\airline\pages\FlightSearch.class
+com\airline\pages\FlightSelect.class
+com\airline\pages\Registration.class

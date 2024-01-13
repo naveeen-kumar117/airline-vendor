@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="Sam">
+  	<parameter name="recordsPath" value="test-data/vendor/sam.json"></parameter>
+
+    <classes>
+      <class name="com.vendor.tests.VendorTestHome"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Mike">
+  	<parameter name="recordsPath" value="test-data/vendor/mike.json"></parameter>
+
+    <classes>
+      <class name="com.vendor.tests.VendorTestHome"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="John">
+  	<parameter name="recordsPath" value="test-data/vendor/john.json"></parameter>
+
+    <classes>
+      <class name="com.vendor.tests.VendorTestHome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
